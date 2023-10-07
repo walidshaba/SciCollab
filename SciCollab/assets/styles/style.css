@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--barlow);
+}
+
+:root {
+  --barlow: 'Barlow', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  /* overflow: hidden; */
+  /* background-color:#000 ; */
+}
+
+.container {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px 100px;
+}
+
+.container .logo {
+  font-size: 40px;
+}
+
+.container .nav li {
+  display: inline;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.container .nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.land-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 50px 100px 0;
+  background-image: url('../images/image\ 8.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 80vh;
+  justify-content: center;
+  background-size: 40%;
+}
+
+.land-page h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.land-page p {
+  font-size: 25px;
+  width: 420px;
+  margin-bottom: 50px;
+}
+
+.land-page .learn-more {
+  display: flex;
+  background-color: #491578;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  text-align: center;
+  /* line-height: 35px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  background-color: #491578;
+  background-image: url('../images/Group\ 55.png');
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  background-position: right;
+  color: #fff;
+}
+
+.quote p {
+  font-size: 30px;
+  display: inline-block;
+}
+
+.quote h5 {
+  font-size: 35px;
+  width: 580px;
+  font-weight: 500;
+}
+
+.quote p,
+.quote h5 {
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+/* 
+.stories {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories .head {
+  background-color: #fff;
+  text-transform: uppercase;
+  display: block;
+  padding: 20px 100px;
+}
+
+.head h1 {
+  font-size: 30px;
+}
+
+.stories .story {
+  background-image: url('../images/story.png');
+
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  justify-content: center;
+  padding: 50px 0;
+  background-origin: ;
+}
+
+.story h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+} */
