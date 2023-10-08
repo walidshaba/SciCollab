@@ -48,15 +48,15 @@ body {
 
 main {
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 main .main-container {
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
   color: #fff;
   padding: 0 100px;
   position: relative;
@@ -94,7 +94,11 @@ main .main-container {
 
 .page1 .display-img {
   position: absolute;
-  bottom: -100px;
+  bottom: -150px;
+  width: 500px;
+}
+.display-img img {
+  width: 500px;
 }
 .arrows {
   position: absolute;
@@ -105,4 +109,103 @@ main .main-container {
 
 .arrows img:nth-of-type(1) {
   transform: rotate(180deg);
+}
+
+.page2 {
+  background: url('../images/story/background5.png');
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.page2 .txt-container {
+  width: 800px;
+}
+
+.page2 .txt-container p {
+  font-size: 50px;
+}
+
+.page3 {
+  background: url('../images/story/background6.png');
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page3 .display-img {
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+
+.page3 .txt-container {
+  width: 800px;
+}
+
+.page3 .txt-container p {
+  font-size: 50px;
+}
+
+.page4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page4 .txt-container {
+  width: 750px;
+}
+
+.page4 .txt-container p {
+  font-size: 50px;
+}
+
+.poem3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../images/story/background1.png');
+}
+
+.poem3 .txt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+}
+
+.poem3 .txt-container h5 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.poem3 .txt-container p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.poem4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../images/story/background1.png');
+}
+
+.poem4 .txt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+}
+
+.poem4 .txt-container h5 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.poem4 .txt-container p {
+  font-size: 30px;
+  line-height: 40px;
 }
