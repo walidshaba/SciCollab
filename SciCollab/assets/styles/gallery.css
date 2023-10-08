@@ -174,3 +174,25 @@ main .page2 {
   color: #f8b375;
   font-size: 20px;
 }
+
+.page6,
+.page7 {
+  background: #000 url('../images/story1/background4.png');
+}
+
+.page8 {
+  background: #000 url('../images/story1/background4.png');
+}
+
+.poem1 {
+  background: url('../images/story1/background1.png');
+}
+.poem1 .txt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poem1 .txt-container p {
+  text-align: center;
+}
