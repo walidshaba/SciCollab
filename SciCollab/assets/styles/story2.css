@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--barlow);
+}
+
+:root {
+  --barlow: 'Barlow', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  /* overflow: hidden; */
+  background-color: #000;
+}
+
+.container {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 20px 100px;
+  position: absolute;
+  z-index: 999;
+}
+
+.container .logo {
+  font-size: 40px;
+}
+
+.container .nav li {
+  display: inline;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.container .nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+main {
+  overflow: hidden;
+}
+main .main-container {
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  z-index: -1;
+  color: #fff;
+
+  padding: 0 100px;
+  position: relative;
+}
+
+main .page1 {
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('../images/story/background4.png');
+  flex-direction: column;
+}
+
+.page1 .txt-container {
+  width: 700px;
+}
+
+.txt-container h5 {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.txt-container p {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.page1 .display-img {
+  position: absolute;
+  bottom: -100px;
+}
+
+.arrows {
+  position: absolute;
+  bottom: 10%;
+  right: 40px;
+  cursor: pointer;
+}
+
+.arrows img:nth-of-type(1) {
+  transform: rotate(180deg);
+}
+
+.page2 {
+  background: #00b7d2 url('../images/story/background4.png');
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.download {
+  position: absolute;
+  bottom: 35%;
+  left: 100px;
+}
+
+.download a {
+  text-decoration: none;
+  color: #f8b375;
+  font-size: 20px;
+}
+
+.page2 .txt-container {
+  width: 900px;
+}
+
+.page3 {
+  justify-content: center;
+  align-items: center;
+  background: #00b7d2 url('../images/story/background4.png');
+}
+
+.page4 {
+  align-items: center;
+  background: #00b7d2 url(../images/story/background4.png);
+}
+
+.poem2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('../images/story/background1.png');
+}
+
+.poem2 .txt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 800px;
+}

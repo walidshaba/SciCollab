@@ -58,7 +58,7 @@ main .container {
 }
 
 main .page1 {
-  background-image: url('../images/story1/background1.png');
+  background-image: url('../images/story/background1.png');
 }
 
 .page1 .txt-container {
@@ -121,7 +121,7 @@ main .page2 {
 }
 
 .page4 {
-  background-image: url('../images/story1/background4.png');
+  background-image: url('../images/story/background4.png');
   background-color: #02a8c0;
 }
 
@@ -135,7 +135,7 @@ main .page2 {
 }
 
 .page5 {
-  background-image: url('../images/story1/background4.png');
+  background-image: url('../images/story/background4.png');
   background-color: #000;
   /* display: flex;
   flex-direction: column;
@@ -177,15 +177,15 @@ main .page2 {
 
 .page6,
 .page7 {
-  background: #000 url('../images/story1/background4.png');
+  background: #000 url('../images/story/background4.png');
 }
 
 .page8 {
-  background: #000 url('../images/story1/background4.png');
+  background: #000 url('../images/story/background4.png');
 }
 
 .poem1 {
-  background: url('../images/story1/background1.png');
+  background: url('../images/story/background1.png');
 }
 .poem1 .txt-container {
   display: flex;
